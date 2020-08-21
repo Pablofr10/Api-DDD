@@ -8,7 +8,7 @@ namespace Api.Data.Context
         public MyContext CreateDbContext(string[] args)
         {
             // Usado para criar Migrações
-            var connectionString = "Server=DESKTOP-D9VV8QN;Database=dbAPI;Trusted_Connection=True";
+            var connectionString = "Data Source=DESKTOP-D9VV8QN;Initial Catalog=dbAPI;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
             var optionBuilder = new DbContextOptionsBuilder<MyContext>();
             optionBuilder.UseSqlServer(connectionString);
             return new MyContext(optionBuilder.Options);
