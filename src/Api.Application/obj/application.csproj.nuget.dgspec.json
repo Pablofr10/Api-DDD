@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Pablo\\Desktop\\projetos\\Curso.Net\\curso_api_netcore\\src\\Api.Application\\application.csproj": {}
+    "C:\\Users\\Pablo\\Desktop\\projetos\\Curso.Net\\curso_api_netcore\\src\\Api.Application\\application.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Pablo\\Desktop\\projetos\\Curso.Net\\curso_api_netcore\\src\\Api.Application\\application.csproj": {
+    "C:\\Users\\Pablo\\Desktop\\projetos\\Curso.Net\\curso_api_netcore\\src\\Api.Application\\application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Pablo\\Desktop\\projetos\\Curso.Net\\curso_api_netcore\\src\\Api.Application\\application.csproj",
+        "projectUniqueName": "C:\\Users\\Pablo\\Desktop\\projetos\\Curso.Net\\curso_api_netcore\\src\\Api.Application\\application.csproj",
         "projectName": "application",
-        "projectPath": "c:\\Users\\Pablo\\Desktop\\projetos\\Curso.Net\\curso_api_netcore\\src\\Api.Application\\application.csproj",
+        "projectPath": "C:\\Users\\Pablo\\Desktop\\projetos\\Curso.Net\\curso_api_netcore\\src\\Api.Application\\application.csproj",
         "packagesPath": "C:\\Users\\Pablo\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Pablo\\Desktop\\projetos\\Curso.Net\\curso_api_netcore\\src\\Api.Application\\obj\\",
+        "outputPath": "C:\\Users\\Pablo\\Desktop\\projetos\\Curso.Net\\curso_api_netcore\\src\\Api.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
