@@ -8,10 +8,16 @@ namespace Api.Application.Controllers {
     [Route ("api/[controller]")]
     [ApiController]
     public class UsersController : ControllerBase {
+        protected readonly IUserService _service;
+
+        public UsersController (IUserService service) {
+            _service = service;
+        }
+
         [HttpGet]
-        public async Task<IActionResult> GetAll ([FromServices] IUserService service) {
+        public async Task<IActionResult> GetAll () {
             try {
-                return Ok (await service.GetAll ());
+                return Ok (await _service.GetAll ());
             } catch (ArgumentException ex) {
                 return StatusCode ((int) HttpStatusCode.InternalServerError, ex.Message);
             }
